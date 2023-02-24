@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="flexbox.css">
+
+<body>
+  <header class="header">
+    <h1>CSS Snippet Cheatsheet</h1>
+    <p>Ever have trouble recalling the exact syntax for your favourite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy</p>
+  </header>
+  <div class="container">
+    <div class="box">
+      <h3 class="sub-heading">Flexbox Row</h3>
+      <h4 class="description">Use these three properties to create Flexbox row layout.</h4>
+      <p class="snippet"><br>.row {<br>
+          display: flex;<br>
+          flex-direction: row;<br>
+          flex-wrap: wrap;<br>
+        }<br><br>
+      </p>
+    </div>
+    <div class="box">
+      <h3 class="sub-heading">Flexbox Column</h3>
+      <h4 class="description">Use this to create Flexbox column layout</h4>
+      <p class="snippet"><br>.column {<br>
+        display: flex;<br>
+        flex-direction: row;<br>
+        }<br><br><br>
+      </p>
+    </div>
+    <div class="box">
+      <h3 class="sub-heading">CSS Grid Layout</h3>
+      <h4 class="description">Build a12 column layout using CSS Grid</h4>
+      <p class="snippet"><br>.grid {<br>
+        display: grid;<br>
+        width: 100%;<br>
+        grid-template-columns<br>
+        repeat (12, 1fr)<br>
+      }
+      </p>
+    </div>
+    <div class="box">
+      <h3 class="sub-heading">Linear Gradients</h3>
+      <h4 class="description">This will create a background linear gradient from top to bottom</h4>
+      <p class="snippet"><br>.linear-gradient-background {<br>
+        background-image: <br>
+            linear-gradient(<br>
+            rgba(232, 102, 236, 0.3) 0%,<br>
+            rgba(232, 102, 236, 0.6) 100%<br>
+        );<br>
+    }
+      </p>
+    </div>
+    <div class="box">
+      <h3 class="sub-heading">Box Transition Glow</h3>
+      <h4 class="description">Use transition and box shadows to glow on hover.</h4>
+      <p class="snippet">div .code-card .card-header {<br>
+        border-radius: 8px;<br>
+        transition: all 0.5s ease-in-out;<br>
+        }<br><br>
+    
+        .code-card:hover,<br>
+        .code-card:hover .card-header {<br>
+        box-shadow: inset 0px 0px 8px<br> 
+        rgba(232, 102, 236, 1), <br>
+        0 0 15px<br> 
+        rgba(232, 102, 236, 1);<br>
+        }
+      </p>
+    </div>
+    <div class="box">
+      <h3 class="sub-heading">Overlay Card with Title</h3>
+      <h4 class="description">Use position properties and negative margins to raise elements higher than their natural starting point.</h4>
+      <p class="snippet"><br><br>.card-header {<br>
+        position: relative;<br>
+        margin-top: -20px;<br>
+    }
+      </p>
+    </div>
+  </div>
+</body>
