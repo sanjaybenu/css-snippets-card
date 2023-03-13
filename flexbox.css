@@ -96,6 +96,11 @@ body {
 .snippet:hover, .sub-heading:hover, .description:hover {
 
     font-size: 200%;
+    
+}
+
+.snippet:hover {
+
     user-select: all;
 }
 
