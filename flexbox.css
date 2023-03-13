@@ -93,6 +93,12 @@ body {
 
 }
 
+.snippet:hover, .sub-heading:hover, .description:hover {
+
+    font-size: 200%;
+    user-select: all;
+}
+
 
 
 @media screen and (max-width:800px) {
